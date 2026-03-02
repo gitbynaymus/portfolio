@@ -120,34 +120,131 @@ const Projects = () => (
       {/* 3rd project */}
       <div className="md:col-span-2 lg:col-span-1 card-glass p-6">
         <h3 className="font-display text-lg font-bold text-foreground">
-          Go-Desh Tour & Travel
+          PH Tube
         </h3>
+
+        {/* Paragraph */}
         <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-          Full-stack travel management system with role-based dashboards (Admin,
-          Guide, Tourist) and real-world workflow implementation.
+          A YouTube-inspired video platform built with JavaScript, featuring
+          API-based video loading, category filtering, and a responsive UI.
         </p>
+
+        {/* Image Below Paragraph */}
+        <img
+          src="/ph-tube.png"
+          alt="PH Tube Project Preview"
+          className="mt-4 w-full rounded-lg object-cover shadow-md"
+        />
+
         <div className="mt-3 flex flex-wrap gap-2">
           {[
-            "React",
+            "HTML",
+            "CSS",
+            "JavaScript",
             "Tailwind CSS",
-            "Node.js",
-            "Express.js",
-            "MongoDB",
-            "Firebase",
+            "DaisyUI",
+            "REST API",
           ].map((t) => (
             <span key={t} className="tag-chip">
               {t}
             </span>
           ))}
         </div>
+
         <div className="mt-4">
           <a
-            href="https://godesh.vercel.app"
+            href="https://gitbynaymus.github.io/ph-tube-by-javascript/"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
           >
-            <ExternalLink size={14} /> godesh.vercel.app
+            <ExternalLink size={14} />{" "}
+            gitbynaymus.github.io/ph-tube-by-javascript
+          </a>
+        </div>
+      </div>
+      {/* 4th project */}
+      <div className="md:col-span-2 lg:col-span-1 card-glass p-6">
+        <h3 className="font-display text-lg font-bold text-foreground">
+          DevBoard
+        </h3>
+
+        {/* Paragraph */}
+        <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+          A task management web app for tracking and completing daily tasks,
+          featuring dynamic updates, interactive UI components, and responsive
+          design.
+        </p>
+
+        {/* Image Below Paragraph */}
+        <img
+          src="/dev-board.png" // keep image inside public folder
+          alt="DevBoard Project Preview"
+          className="mt-4 w-full rounded-lg object-cover shadow-md"
+        />
+
+        <div className="mt-3 flex flex-wrap gap-2">
+          {[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Tailwind CSS",
+            "DaisyUI",
+            "REST API",
+          ].map((t) => (
+            <span key={t} className="tag-chip">
+              {t}
+            </span>
+          ))}
+        </div>
+
+        <div className="mt-4">
+          <a
+            href="https://gitbynaymus.github.io/programming-hero-5th-assignment/"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+          >
+            <ExternalLink size={14} /> Live Preview
+          </a>
+        </div>
+      </div>
+      {/* 5th Project */}
+      <div className="md:col-span-2 lg:col-span-1 card-glass p-6">
+        <h3 className="font-display text-lg font-bold text-foreground">
+          Browses for Pets
+        </h3>
+
+        {/* Paragraph */}
+        <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+          A beautifully designed website for pet lovers, showcasing pet
+          categories, adoption information, and a clean, responsive user
+          interface.
+        </p>
+
+        {/* Image Below Paragraph */}
+        <img
+          src="/browses-for-pet.png" // keep image inside public folder
+          alt="Browses for Pets Project Preview"
+          className="mt-4 w-full rounded-lg object-cover shadow-md"
+        />
+
+        <div className="mt-3 flex flex-wrap gap-2">
+          {["HTML", "CSS", "Tailwind CSS"].map((t) => (
+            <span key={t} className="tag-chip">
+              {t}
+            </span>
+          ))}
+        </div>
+
+        <div className="mt-4">
+          <a
+            href="https://gitbynaymus.github.io/programming-hero-3rd-assignment/"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+          >
+            <ExternalLink size={14} /> Live Preview
           </a>
         </div>
       </div>
