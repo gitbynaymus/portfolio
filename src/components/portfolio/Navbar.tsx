@@ -33,13 +33,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4  ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 pt-3  ${
         scrolled
           ? "bg-background/80 backdrop-blur-xl border-b border-border/50 shadow-sm"
           : "bg-transparent"
       }`}
     >
-      <div className="section-container flex items-center justify-between h-16  border border-primary/90 rounded-full">
+      <div className="section-container flex items-center justify-between h-12 px-2 border border-primary/90 rounded-full">
         <div className="flex items-center gap-2">
           {/* Small profile photo */}
           <img

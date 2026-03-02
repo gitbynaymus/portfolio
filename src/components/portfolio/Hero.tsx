@@ -9,11 +9,11 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center pt-16"
+      className="min-h-screen  flex items-center pt-16"
       style={{ background: "var(--gradient-hero)" }}
     >
       <div className="section-container">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid  lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -22,14 +22,15 @@ const Hero = () => {
             className="text-center lg:text-left order-2 lg:order-1"
           >
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-              MD. Imran{" "}
-              <span className="gradient-text">Hossain</span>
+              MD. Imran <span className="gradient-text">Hossain</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground font-medium">
               AI & Machine Learning Research Enthusiast | Frontend Developer
             </p>
             <p className="mt-5 text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0">
-              Computer Science student passionate about multimodal AI research and intelligent system design. Building scalable digital systems while preparing for advanced research in AI & Machine Learning.
+              Computer Science student passionate about multimodal AI research
+              and intelligent system design. Building scalable digital systems
+              while preparing for advanced research in AI & Machine Learning.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3 justify-center lg:justify-start">
@@ -74,14 +75,14 @@ const Hero = () => {
                 <Mail size={20} />
               </a>
               <a
-  href="https://web.facebook.com/naymusimran"
-  target="_blank"
-  rel="noreferrer"
-  className="p-2.5 rounded-full bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all"
-  aria-label="Facebook"
->
-  <Facebook size={20} />
-</a>
+                href="https://web.facebook.com/naymusimran"
+                target="_blank"
+                rel="noreferrer"
+                className="p-2.5 rounded-full bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all"
+                aria-label="Facebook"
+              >
+                <Facebook size={20} />
+              </a>
             </div>
           </motion.div>
 
@@ -92,15 +93,16 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="flex justify-center order-1 lg:order-2"
           >
-            <div className="relative">
+            <div className="relative ">
               <div className="absolute inset-0 rounded-full glow-effect scale-110 animate-float" />
               <img
                 src={profilePhoto}
                 alt="MD. Imran Hossain - AI & ML Research Enthusiast"
-                className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-background shadow-xl"
+                className="relative w-64 h-64 sm:py-100 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-background shadow-xl"
                 loading="eager"
               />
             </div>
+            
           </motion.div>
         </div>
       </div>
