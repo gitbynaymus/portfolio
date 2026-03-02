@@ -22,6 +22,12 @@ const Projects = () => (
           freelancer inequality using intelligent task matching and
           fairness-based distribution model.
         </p>
+        {/* Image Below Paragraph */}
+        <img
+          src="/flex-flow.png" // keep image inside public folder
+          alt="Go-Desh Tour Project Preview"
+          className="mt-4 w-full rounded-lg object-cover shadow-md"
+        />
         <div className="mt-4 flex flex-wrap gap-2">
           {[
             "Intelligent System Architecture",
@@ -50,7 +56,6 @@ const Projects = () => (
         </div>
       </div>
 
-      {/* Second project */}
       {/* <div className="md:col-span-2 lg:col-span-1 card-glass p-6">
         <h3 className="font-display text-lg font-bold text-foreground">Go-Desh Tour & Travel</h3>
         <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
@@ -72,7 +77,7 @@ const Projects = () => (
           </a>
         </div>
       </div> */}
-
+      {/* Second project */}
       <div className="md:col-span-2 lg:col-span-1 card-glass p-6">
         <h3 className="font-display text-lg font-bold text-foreground">
           Go-Desh Tour & Travel
@@ -106,14 +111,20 @@ const Projects = () => (
           ))}
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4 flex gap-3">
+          <a
+            href="https://github.com/gitbynaymus/godesh-idp-II"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            <Github size={14} /> GitHub
+          </a>
           <a
             href="https://godesh.vercel.app"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium border border-border bg-card text-foreground hover:bg-muted transition-colors"
           >
-            <ExternalLink size={14} /> godesh.vercel.app
+            <ExternalLink size={14} /> Live Demo
           </a>
         </div>
       </div>
@@ -151,15 +162,21 @@ const Projects = () => (
           ))}
         </div>
 
-        <div className="mt-4">
+        <div className="mt-5 flex gap-3">
+          <a
+            href="https://github.com/gitbynaymus/ph-tube-by-javascript"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            <Github size={14} /> GitHub
+          </a>
           <a
             href="https://gitbynaymus.github.io/ph-tube-by-javascript/"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium border border-border bg-card text-foreground hover:bg-muted transition-colors"
           >
-            <ExternalLink size={14} />{" "}
-            gitbynaymus.github.io/ph-tube-by-javascript
+            <ExternalLink size={14} />
+            Live Demo
           </a>
         </div>
       </div>
@@ -198,14 +215,20 @@ const Projects = () => (
           ))}
         </div>
 
-        <div className="mt-4">
+        <div className="mt-5 flex gap-3">
+          <a
+            href="https://github.com/gitbynaymus/programming-hero-5th-assignment"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            <Github size={14} /> GitHub
+          </a>
           <a
             href="https://gitbynaymus.github.io/programming-hero-5th-assignment/"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium border border-border bg-card text-foreground hover:bg-muted transition-colors"
           >
-            <ExternalLink size={14} /> Live Preview
+            <ExternalLink size={14} /> Live Demo
           </a>
         </div>
       </div>
@@ -237,14 +260,20 @@ const Projects = () => (
           ))}
         </div>
 
-        <div className="mt-4">
+        <div className="mt-5 flex gap-3">
+          <a
+            href="https://github.com/gitbynaymus/programming-hero-3rd-assignment"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
+          >
+            <Github size={14} /> GitHub
+          </a>
           <a
             href="https://gitbynaymus.github.io/programming-hero-3rd-assignment/"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium border border-border bg-card text-foreground hover:bg-muted transition-colors"
           >
-            <ExternalLink size={14} /> Live Preview
+            <ExternalLink size={14} /> Live Demo
           </a>
         </div>
       </div>
