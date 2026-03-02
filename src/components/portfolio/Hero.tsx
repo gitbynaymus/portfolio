@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail,Facebook } from "lucide-react";
+import { Github, Linkedin, Mail, Facebook, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import profilePhoto from "@/assets/profile-photo.png";
 
@@ -46,6 +46,13 @@ const Hero = () => {
               >
                 View Projects
               </button>
+              <a
+                href="/Imran_Hossain_CV.pdf"
+                download
+                className="px-6 py-3 rounded-full font-medium text-sm bg-primary text-primary-foreground hover:opacity-90 transition-opacity flex flex-row gap-2"
+              >
+                <Download size={14} /> Download CV
+              </a>
             </div>
 
             <div className="mt-8 flex gap-4 justify-center lg:justify-start">
@@ -102,7 +109,6 @@ const Hero = () => {
                 loading="eager"
               />
             </div>
-            
           </motion.div>
         </div>
       </div>
